@@ -2,12 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Raleway:wght@800&display=swap');
 
 
-* {
-
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+*{
+    
 }
+
 
 
 
@@ -15,6 +13,10 @@
 
 body {
     margin: 0 auto;
+    /* background: #f1f1f1;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column; */
 }
 
 /*---------------------------------------Home page*---------------------------------------- */
@@ -102,12 +104,13 @@ nav.nav li {
 
 /*------------------------------- Voici Nos Studios et Gîtes------------------  */
 
-section.container{
+section.container {
     display: flex;
     flex: wrap;
     margin: 50px;
-    
+
 }
+
 section.container .item {
     flex: 1;
     display: flex;
@@ -118,22 +121,19 @@ section.container .item {
     margin: 20px;
     padding: 10px;
     text-align: center;
-  }
+   
+}
 
-  section.container img, p, h2{
+section.container img,
+p,
+h2 {
     padding: 100px;
-    
-  }
-  section.container img {
+
+}
+
+section.container img {
     border-radius: 20vh;
-    box-shadow: 1px 
-    
-  }
+    box-shadow: 1px
+}
 
-
-
-
-
-
-
-
+/*--------------------------------footer-----------------------------*/
