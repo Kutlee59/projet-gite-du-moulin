@@ -1,0 +1,245 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Raleway:wght@800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #be8a0e;
+
+}
+
+
+
+
+
+
+/*---------------------------------------Home page*---------------------------------------- */
+
+header.Hearder {
+    display: flex;
+    align-items: center;
+    /*background-color: green; */
+
+
+}
+
+header.Hearder img {
+    display: flex;
+    border-radius: 25%;
+    width: 150px;
+}
+
+
+/*----------------------------- grand visuel------------------------------ */
+section.top-page {
+    background: url("./images/p_y_g_moulin.png");
+    background-size: cover;
+    border-radius: 15%;
+
+    height: 100vh;
+    padding: 50px;
+}
+
+/*---------------------------- h1-Gîte Du Moulin-------------------- */
+
+.landing-page {
+
+    padding: 50px 100px;
+    margin-left: 50vh;
+}
+
+.landing-page p {
+    color: rgb(207, 14, 14);
+    margin: 10px;
+    padding: 50px;
+
+}
+
+.big-title {
+    color: rgb(2, 2, 2);
+    font-family: 'Passions Conflict', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+
+    /*------------------------- dé-gaissie le texte >> font-weight --------------------------*/
+    font-weight: 200;
+
+    /*------------------------ taille du texte  (px)-------------------------*/
+    font-size: 120px;
+}
+
+.Scroll-down {
+    color: rgb(180, 14, 14);
+    text-decoration: none;
+    position: absolute;
+    padding-left: 60%;
+
+    bottom: 160px;
+
+}
+
+
+/* ---------------------Menu de Navigation-------------------------------- */
+
+nav li a {
+    color: rgb(7, 4, 4);
+}
+
+nav.nav {
+
+    display: flex;
+
+    /*-------------------- espacé les éléments (space-around)----------------- */
+    justify-content: space-around;
+    list-style: none;
+
+    /* background-color: red; */
+    width: 1000vh;
+    margin-left: 40px;
+
+}
+
+nav.nav li {
+    color: #FE5D26;
+    font-size: 30px;
+}
+
+/*------------------------------- Voici Nos Studios et Gîtes------------------  */
+
+section.container {
+    display: flex;
+    flex: wrap;
+    margin: 50px;
+
+}
+
+/* ----------------------------------bloc--------------------------------------- */
+section.container .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #b6942e;
+    justify-content: center;
+    box-shadow: 1px 1px 12px rgb(22, 22, 22);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+section.container img,
+p,
+h2 {
+    padding: 100px;
+
+}
+
+section.container img {
+    border-radius: 20vh;
+    box-shadow: 1px
+}
+
+.contenu {
+    flex: 1 0 auto;
+
+}
+
+/*--------------------------------footer-----------------------------*/
+
+.contenu-footer {
+    background: rgb(139, 132, 132);
+
+
+
+
+
+}
+
+.contenu-footer {
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px dashed rgb(238, 5, 5);
+    /* height taille du footer */
+    height: 100%;
+    width: 100vw;
+    align-items: flex-start;
+    font-size: 15px;
+    padding: 50px 0 100px;
+
+}
+
+.contenu-footer li {
+
+    list-style: none;
+    padding: 2px;
+}
+
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+/*------------------------------------------ contact--------------------------------------  */
+
+.footer-contact h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-media h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+
+.footer-contact p {
+    padding: 5px 0;
+    color: rgb(233, 233, 233);
+
+}
+
+/*--------------------------------------- Services------------------------------------------- */
+
+.liste-services,
+.liste-horaires,
+.liste-media {
+    list-style-type: none;
+    color: rgb(255, 225, 225);
+
+}
+
+.liste-services a {
+    text-decoration: none;
+    color: rgb(255, 225, 225);
+}
+
+.liste-services a :hover {
+    color: rgb(255, 255, 255);
+}
+
+
+/*--------------------------------------- Medias------------------------------------------------ */
+
+.liste-media img {
+    position: relative;
+    right: 10px;
+    width: 20px;
+    margin: 10px 10px;
+}
+
+.liste-media a {
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
